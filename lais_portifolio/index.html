@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon (2).png" type="image/x-icon">
+    <title>Portfólio Simples</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: linear-gradient(to right, purple, red);
+        }
+
+        header {
+            background-image: linear-gradient(to right, purple, red);
+            color: rgb(241, 245, 4);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #060202;
+        }
+
+        nav a {
+            color: rgb(246, 245, 245);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #313331;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about, .projects, .contact {
+            margin: 20px auto;
+            max-width: 800px;
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <p>Bem-vindo ao meu portfólio online!</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <div class="about">
+            <h2>Sobre Mim</h2>
+            <p>Sou uma desenvolvedora apaixonada por criar soluções criativas e funcionais. Adoro aprender novas tecnologias e me desafiar em projetos interessantes.</p>
+        </div>
+    </section>
+
+    <section id="cursos">
+        <div class="projects">
+            <h2>Cursos</h2>
+            <ul>
+                <li>Curso 1 - Desvendando o 5G</li>
+                <li>Curso 2 - Comunicação empresarial</li>
+                <li>Curso 3 - Preparação para o mundo de trbalho</li>
+                <li>Curso 4 - Privacidade e proteção de dados (LGPD)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="contact">
+            <h2>Contato</h2>
+            <p>Email: santoscarvalhol@gmail.com</p>
+            <p>Telefone: (11) 96208-0623</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lais. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
